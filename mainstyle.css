@@ -1,0 +1,93 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    text-align: center;
+    background-image: url('headerimage.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 47%;
+}
+
+/* End of Header Section  */
+
+
+/* nav Section */
+
+nav {
+    position: sticky;
+    background-color: #ffffff;
+    color: #000;
+    top: 0;
+    overflow: hidden;
+    padding: 0px 70px;
+    line-height: 50px;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    min-height: 3rem;
+    min-width: 3rem;
+    padding: .5rem 0 .5rem 0;
+    color: #262626;
+    line-height: 2.58918;
+    font-family: FilsonPro, FilsonPro-weightbold-upcase-roboto, FilsonPro-weightbold-upcase-local, Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+nav a.logo,
+a.icon {
+    vertical-align: middle;
+    margin-top: 10px;
+
+}
+
+.listPages:hover,
+.listPagesLast:hover {
+    text-decoration: underline;
+}
+
+.listPages {
+    margin-right: 20px;
+
+}
+
+.listPagesLast {
+    margin-right: 0px;
+}
+
+nav a.logo {
+    margin-right: 20px;
+}
+
+nav a.roundedButton {
+    text-align: center;
+    background-color: #CE0D5A;
+    color: #ffffff;
+    font-family: FilsonPro, FilsonPro-weightbold-upcase-roboto, FilsonPro-weightbold-upcase-local, Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 0.045rem;
+    padding: 6px 16px;
+    display: inline;
+}
+
+/* End of nav Section  */
