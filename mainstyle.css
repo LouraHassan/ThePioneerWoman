@@ -91,3 +91,38 @@ nav a.roundedButton {
 }
 
 /* End of nav Section  */
+
+/* gray box design  */
+.divSeparator {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+/* End of gray box design  */
+
+/* Card design */
+.frameContainer {
+    height: 666;
+    padding: 25px 40px;
+}
+
+.card {
+    padding-top: 60px;
+}
+
+.card h3 {
+    background-color: #F4FAF9;
+    text-align: center;
+    padding: 32px 16px;
+    color: #066963;
+    cursor: pointer;
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.card h3:hover{
+    color: #CE0D5A;
+}
+/* End of Card design */
