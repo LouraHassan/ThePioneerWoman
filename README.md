@@ -4,6 +4,6 @@ The Pioneer Woman website, created by Ree Drummond, is a popular lifestyle blog 
 
 We simulated four pages:
 - The home page. (Najwa)
-- The sign in page. (Loura
+- The sign in page. (Loura)
 - The recipes page. (Najwa)
 - And Carmelitas recipe page. (Loura)
