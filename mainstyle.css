@@ -1,0 +1,278 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    text-align: center;
+    background-image: url('headerimage.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.header img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 47%;
+}
+
+/* End of Header Section  */
+
+
+/* nav Section */
+
+nav {
+    position: sticky;
+    background-color: #ffffff;
+    color: #000;
+    top: 0;
+    overflow: hidden;
+    padding: 0px 70px;
+    line-height: 50px;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    min-height: 3rem;
+    min-width: 3rem;
+    padding: .5rem 0 .5rem 0;
+    color: #262626;
+    line-height: 2.58918;
+    font-family: FilsonPro, FilsonPro-weightbold-upcase-roboto, FilsonPro-weightbold-upcase-local, Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+nav a.logo,
+a.icon {
+    vertical-align: middle;
+    margin-top: 10px;
+
+}
+
+.listPages:hover,
+.listPagesLast:hover {
+    text-decoration: underline;
+}
+
+.listPages {
+    margin-right: 20px;
+
+}
+
+.listPagesLast {
+    margin-right: 0px;
+}
+
+nav a.logo {
+    margin-right: 20px;
+}
+
+nav a.roundedButton {
+    text-align: center;
+    background-color: #CE0D5A;
+    color: #ffffff;
+    font-family: FilsonPro, FilsonPro-weightbold-upcase-roboto, FilsonPro-weightbold-upcase-local, Helvetica, Arial, Sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: 0.045rem;
+    padding: 6px 16px;
+    display: inline;
+}
+
+/* End of nav Section  */
+
+/* gray box design  */
+.divSeparator {
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+/* End of gray box design  */
+
+/* Card design */
+.frameContainer {
+    height: 666;
+    padding: 25px 40px;
+}
+
+.card {
+    padding-top: 60px;
+}
+
+.card h3 {
+    background-color: #F4FAF9;
+    text-align: center;
+    padding: 32px 16px;
+    color: #066963;
+    cursor: pointer;
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card h3:hover {
+    color: #CE0D5A;
+}
+
+/* End of Card design */
+
+/* start of grid design */
+
+.gridHeader {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.gridContainer h3 {
+    margin: 0rem;
+    color: #066963;
+    font-family: Bogue, Bogue-roboto, Bogue-local, Georgia, Times, Serif;
+    text-align: center;
+    letter-spacing: -0.015rem;
+    font-weight: bold;
+    padding-bottom: 0.625rem;
+    font-size: 2.375rem;
+    line-height: 1.1;
+}
+
+.gridrow {
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+
+.gridColumn {
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.gridColumn img {
+    margin-bottom: 10px;
+}
+
+.gridrow h4 {
+    color: #066963;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: FilsonPro, FilsonPro-roboto, FilsonPro-local, Helvetica, Arial, Sans-serif;
+    font-weight: normal;
+    padding-bottom: 0.625rem;
+    padding-top: 0.3125rem;
+    opacity: 0.9;
+    font-size: large;
+}
+
+.gridrow h4:hover {
+    color: #CE0D5A;
+}
+
+/* End of grid design */
+
+
+/* ***** recipes.html Page******** */
+
+/* image with title inside, header section */
+.foodContainer {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 99%;
+    height: 516px;
+}
+
+.titleContainer {
+    position: absolute;
+    padding: 0.625rem 1.8rem;
+    background-color: #F4FAF9;
+    margin: 0rem;
+    border-radius: 0.75rem;
+    bottom: 140px;
+    left: 32%;
+}
+
+.titleContainer h3 {
+    color: #066963;
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 2.8em;
+}
+
+/* End of image with title inside, header section */
+
+/* Start of Recipes menu section */
+.recipesContainer{
+    /* padding: 40px 20px 0px 25px; */
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    background-color: #F4FAF9;
+    width: 96.2%;
+    height: 500px;
+    margin-bottom: 20px;
+    height: 573px;
+}
+.bgpc{
+    width: 99%;
+    height: 10px;
+    background-image: radial-gradient(circle at 10px 0, #44ABA5 10px, #44ABA5 10px, rgba(255, 255, 255, 0) 11px);
+    background-repeat: repeat-x;
+    background-size: 20px 12px;
+    background-color: #F4FAF9;
+}
+.column{
+    float: left;
+    margin-right: 5px;
+    padding:0px;
+    margin: 0px; 
+}
+.titleBox{
+    width: 775px;
+    padding: 2rem 0.5rem;
+    font-size: 1.8em;
+}
+.titleBox h3,.titleOfImage{
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    padding-bottom: 0.625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #066963;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.titleBox h3:hover,.titleOfImage:hover{
+    color: #CE0D5A;
+}
+ .smallimage,.titleOfImage{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.titleOfImage{
+    height: 74px;
+    width: 173px;
+    padding-bottom: 10px;
+}
+.row{
+    margin-bottom: 10px;
+}
+
+/* End of Recipes menu section */
