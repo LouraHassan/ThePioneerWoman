@@ -200,7 +200,7 @@ nav a.roundedButton {
     background-color: #F4FAF9;
     margin: 0rem;
     border-radius: 0.75rem;
-    bottom:140px;
+    bottom: 140px;
     left: 32%;
 }
 
@@ -213,3 +213,66 @@ nav a.roundedButton {
 }
 
 /* End of image with title inside, header section */
+
+/* Start of Recipes menu section */
+.recipesContainer{
+    /* padding: 40px 20px 0px 25px; */
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 35px;
+    background-color: #F4FAF9;
+    width: 96.2%;
+    height: 500px;
+    margin-bottom: 20px;
+    height: 573px;
+}
+.bgpc{
+    width: 99%;
+    height: 10px;
+    background-image: radial-gradient(circle at 10px 0, #44ABA5 10px, #44ABA5 10px, rgba(255, 255, 255, 0) 11px);
+    background-repeat: repeat-x;
+    background-size: 20px 12px;
+    background-color: #F4FAF9;
+}
+.column{
+    float: left;
+    margin-right: 5px;
+    padding:0px;
+    margin: 0px; 
+}
+.titleBox{
+    width: 775px;
+    padding: 2rem 0.5rem;
+    font-size: 1.8em;
+}
+.titleBox h3,.titleOfImage{
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    padding-bottom: 0.625rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #066963;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.titleBox h3:hover,.titleOfImage:hover{
+    color: #CE0D5A;
+}
+ .smallimage,.titleOfImage{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.titleOfImage{
+    height: 74px;
+    width: 173px;
+    padding-bottom: 10px;
+}
+.row{
+    margin-bottom: 10px;
+}
+
+/* End of Recipes menu section */
