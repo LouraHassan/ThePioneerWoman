@@ -192,7 +192,7 @@ nav a.roundedButton {
     position: relative;
     background-color: #E5E5E5;
     width: 99%;
-    height: 516px;
+    height: 500px;
     z-index: 1;
 }
 
@@ -202,7 +202,7 @@ nav a.roundedButton {
     background-color: #F4FAF9;
     margin: 0rem;
     border-radius: 0.75rem;
-    bottom: 140px;
+    bottom: 124px;
     left: 32%;
 }
 
