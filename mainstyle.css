@@ -122,7 +122,62 @@ nav a.roundedButton {
     font-weight: 600;
     font-size: 40px;
 }
-.card h3:hover{
+
+.card h3:hover {
     color: #CE0D5A;
 }
+
 /* End of Card design */
+
+/* start of grid design */
+
+.gridHeader {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+.gridContainer h3 {
+    margin: 0rem;
+    color: #066963;
+    font-family: Bogue, Bogue-roboto, Bogue-local, Georgia, Times, Serif;
+    text-align: center;
+    letter-spacing: -0.015rem;
+    font-weight: bold;
+    padding-bottom: 0.625rem;
+    font-size: 2.375rem;
+    line-height: 1.1;
+}
+
+.gridrow {
+    margin-bottom: 25px;
+    margin-left: 45px;
+}
+
+.gridColumn {
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.gridColumn img {
+    margin-bottom: 10px;
+}
+
+.gridrow h4 {
+    color: #066963;
+    cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: FilsonPro, FilsonPro-roboto, FilsonPro-local, Helvetica, Arial, Sans-serif;
+    font-weight: normal;
+    padding-bottom: 0.625rem;
+    padding-top: 0.3125rem;
+    opacity: 0.9;
+    font-size: large;
+}
+
+.gridrow h4:hover {
+    color: #CE0D5A;
+}
+/* End of grid design */
