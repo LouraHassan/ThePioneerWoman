@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section{
+position: sticky;
+top: 0;
+background-color: white;
+padding: 10px;
+border-bottom: 1px solid rgb(226, 226, 226);
+}
+.nav-div-1{
+display: block;
+text-align: center;
+padding: 10px 0;
+}
+.nav-element{
+    display: inline;
+    margin: 0 10px;
+}
+.nav-buttons{
+    display: inline;
+
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-family: FilsonPro, FilsonPro-roboto, FilsonPro-local, Helvetica, Arial, Sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-size: small;
+letter-spacing: 2;
+}
+.fa-magnifying-glass{
+    color: rgb(217, 15, 89);
+}
+.second-list-div{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(226, 226, 226);
+
+}
+.second-list{
+    font-family: FilsonPro,FilsonPro-roboto,FilsonPro-local,Helvetica,Arial,Sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    display: inline;
+    transition: color 0.3s ease;
+}
+.second-list:hover{
+    color: rgb(165, 165, 165);
+}
+.left-border-light{
+    border-left: 1px solid rgb(226, 226, 226);
+
+}
+.main-div{
+    margin: 1rem 10rem;
+    
+}
+.path-p{
+    font-family: FilsonPro,FilsonPro-weight600-roboto,FilsonPro-weight600-local,Helvetica,Arial,Sans-serif;
+    color: rgb(130, 130, 130);
+    font-size: small;
+}
+.grey-link{
+    color: rgb(130, 130, 130);
+    text-decoration: none;
+}
+.grey-link:hover{
+    text-decoration: underline;
+}
+.recipe-name{
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #066963;
+    font-family: Bogue,Bogue-weight600-roboto,Bogue-weight600-local,Georgia,Times,Serif;
+    margin: 1rem 0;
+}
+.recipe-subtitle{
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-family: FilsonPro,FilsonPro-roboto,FilsonPro-local,Helvetica,Arial,Sans-serif;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.publish-details{
+    font-family: FilsonPro,FilsonPro-weightbold-upcase-roboto,FilsonPro-weightbold-upcase-local,Helvetica,Arial,Sans-serif;
+    display: block;
+    color: black;
+    font-weight: 400;
+    font-size: small;
+}
+.auther{
+    color: black;
+}
+.auther:hover{
+color: rgb(217, 15, 89);
+}
+.rating-div{
+    margin: 20px 0;
+}
+.stars-div{
+    display: block;
+}
+.fa-star{
+    color: rgb(236, 220, 45);
+}
+.rating{
+    display: inline;
+    margin-bottom: 5px;
+}
+.rating-link{
+    color: black;
+}
+.rating-link:hover{
+    color: rgb(217, 15, 89);
+}
+.button{
+    margin-right: 10px;
+    padding: 10px 16px;
+    background-color: rgb(217, 15, 89);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+.button:hover{
+    background-color: rgb(207, 11, 83);
+}
+.icons-div{
+    display: inline-block;
+    width: 45vw;
+    text-align: center;
+    margin: 10px 0;
+}
+.small-icon{
+    background-color: rgb(96, 96, 96);
+    display: inline;
+    padding: 8px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-size: 1em;
+    color: white;
+}
+.recipe-description{
+    margin: 20px 0;
+    font-size: larger;
+    line-height: 1.5;
+    font-family: Charter,Charter-roboto,Charter-local,Georgia,Times,Serif;
+    width: 50vw;
+}
+.pink-link{
+    color: rgb(217, 15, 89);
+}
+.p-title{
+    font-size: larger;
+    line-height: 1.5;
+    font-family: Charter,Charter-roboto,Charter-local,Georgia,Times,Serif;
+    margin: 20px 0;
+}
+.recipe-info-div{
+    border: #066963 1px solid;
+    padding: 10px;
+    background-color: #f3fefd;
+    border-radius: 10px;
+    width: 40vw;
+    text-align: center;
+}
+.inner-div{
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    font-family: FilsonPro,FilsonPro-roboto,FilsonPro-local,Helvetica,Arial,Sans-serif;
+    font-weight: 100;
+    font-size: small;
+
+}
+.right-border{
+    border-right: 1px solid grey;
+
+}
+
+.span1{
+    display: inline-block;
+
+}
+.details-div{
+    display: block;
+    margin-top: 20px;
+}
+.Ingredients-div{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.details-title{
+    color: #066963;
+font-family: Bogue,Bogue-roboto,Bogue-local,Georgia,Times,Serif;
+font-weight: bold;
+}
+.Ingredients-list{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 0;
+    font-family: FilsonPro, FilsonPro-weight600-roboto, FilsonPro-weight600-local, Helvetica, Arial, Sans-serif;
+
+}
+.Ingredients-li{
+    padding: 10px 0;
+}
+.buttom-border{
+    border-bottom: 1px solid #066963;
+
+}
+.Directions-div{
+    display: inline-block;
+    width: 40vw;
+    vertical-align: top;
+    margin: 0 20px;
+}
+.directions-list{
+    line-height: 1.6;
+    font-family: FilsonPro, FilsonPro-weight600-roboto, FilsonPro-weight600-local, Helvetica, Arial, Sans-serif;
+
+}
+.directions-li{
+    padding: 10px 0;
+}
+.up-button{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    padding: 8px 12px;
+    background-color: rgb(217, 15, 89);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
