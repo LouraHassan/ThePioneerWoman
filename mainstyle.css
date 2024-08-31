@@ -180,4 +180,36 @@ nav a.roundedButton {
 .gridrow h4:hover {
     color: #CE0D5A;
 }
+
 /* End of grid design */
+
+
+/* ***** recipes.html Page******** */
+
+/* image with title inside, header section */
+.foodContainer {
+    position: relative;
+    background-color: #E5E5E5;
+    width: 99%;
+    height: 516px;
+}
+
+.titleContainer {
+    position: absolute;
+    padding: 0.625rem 1.8rem;
+    background-color: #F4FAF9;
+    margin: 0rem;
+    border-radius: 0.75rem;
+    bottom:140px;
+    left: 32%;
+}
+
+.titleContainer h3 {
+    color: #066963;
+    font-family: Bogue, Bogue-weight600-roboto, Bogue-weight600-local, Georgia, Times, Serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 2.8em;
+}
+
+/* End of image with title inside, header section */
